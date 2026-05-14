@@ -46,6 +46,13 @@ const COMMUNITIES = [
     link: 'https://www.linkedin.com/company/nicasecurity/',
     description: 'NicaSecurity es una comunidad dedicada a promover el conocimiento y la colaboración en ciberseguridad en Nicaragua y más allá.',
   },
+  {
+    id: 'comunidad-7',
+    name: 'Threat Hunters',
+    logo: '/threat_hunters.png', // Cambiar por la ruta real de tu imagen (ej: /comunidades/alpha.png)
+    link: 'https://www.linkedin.com/company/threat-hunter-utp-program/',
+    description: 'Threat Hunters UTP es una comunidad de estudiantes y egresados de la Universidad Tecnológica del Perú (UTP) dedicada a la ciberseguridad y el hacking ético',
+  },
   // Para agregar más, simplemente copia un bloque de arriba y pégalo aquí abajo
 ];
 

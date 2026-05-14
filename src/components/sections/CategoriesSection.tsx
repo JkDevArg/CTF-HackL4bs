@@ -80,6 +80,17 @@ const CATEGORIES = [
     points: '50-250 pts',
     tags: ['Stego', 'Scripting', 'Trivia'],
   },
+  {
+    id: 'Unknown',
+    icon: '❓',
+    name: 'Unknown',
+    code: 'UNK-08',
+    description: 'Unknown challenges.',
+    difficulty: 'INSANE',
+    color: '#a8a8a8ff',
+    points: '??? pts',
+    tags: ['???', '???', '???'],
+  },
 ];
 
 function CategoryCard({ cat, index }: { cat: typeof CATEGORIES[0]; index: number }) {
